@@ -1,0 +1,54 @@
+[
+    {
+        "type": "tab",
+        "label": "Content",
+        "sections": [
+            {
+                "settings": [
+                    {
+                        "type": "imageManager",
+                        "id": "imageUrl",
+                        "label": "Background",
+                        "default": {
+                          "src": "https://images.unsplash.com/photo-1487700160041-babef9c3cb55?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2000&q=80",
+                          "type": "IMAGE_MANAGER"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "label": "Title",
+                        "id": "title",
+                        "default": "Lorem ipsum"
+                    },
+                    {
+                        "type": "text",
+                        "label": "Sub Title",
+                        "id": "subtitle",
+                        "default": "dolor sit amet"
+                    },
+                    {
+                        "type": "imageManager",
+                        "id": "imageUrlContent",
+                        "label": "Content Image",
+                        "default": {
+                          "src": "https://images.unsplash.com/photo-1487700160041-babef9c3cb55?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2000&q=80",
+                          "type": "IMAGE_MANAGER"
+                        }
+                    },
+                    {
+                        "type": "regexInput",
+                        "label": "URL",
+                        "id": "url",
+                        "default": "",
+                        "typeMeta": {
+                          "placeholder": "https://",
+                          "regExPatterns": [
+                            {}
+                          ]
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]
